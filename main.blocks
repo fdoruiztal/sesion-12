@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="]/T!~x5L[C,.q5|zN0Cf">temp</variable></variables><block type="device_button_event" id="Ve^/8,zjYx2S$.086Z#{" x="83" y="22"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_number" id="{59#ps[m%(+-J|wT=-K?"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="L|E1%Hg?97vYw,v@T9hf"><field name="VAR" id="]/T!~x5L[C,.q5|zN0Cf">temp</field></block></value></block></statement></block><block type="device_forever" id="EX+lt=|$Ej@jOG}rtViA" x="374" y="26"><statement name="HANDLER"><block type="variables_set" id="PnUq~odqN..ZLad?Vie/"><field name="VAR" id="]/T!~x5L[C,.q5|zN0Cf">temp</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="|]V9^jGcDr}uFyYlx*Cb"></block></value><next><block type="device_show_number" id="$nn2C%21jO6*?+CHcR#{"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="QI_S]p[UOP#a)L[-PNLU"><field name="VAR" id="]/T!~x5L[C,.q5|zN0Cf">temp</field></block></value><next><block type="controls_if" id="MKNu,;0.$VvW7iUXGv#i"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="vdbBDGpxhn-5Y(8e+@h6"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="Q2OLBa|IP$,^R7wCtB3+"><field name="VAR" id="]/T!~x5L[C,.q5|zN0Cf">temp</field></block></value><value name="B"><shadow type="math_number" id="{/v:2ntZcHoC#kE)2,v9"><field name="NUM">10</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="NlMqS=)?@~`~)KnyP8B7"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        # . # . #
+        `</field></block></statement><next><block type="controls_if" id="(bFG|b_]*,e|qa-;x#.N"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="k:Z:Aj52SOsFzS7t|_Q+"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="lGqJPfQ_*mc6NaIgd=RM"><field name="VAR" id="]/T!~x5L[C,.q5|zN0Cf">temp</field></block></value><value name="B"><shadow type="math_number" id="-N32``KmOJs8G`4^%+bJ"><field name="NUM">20</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="v@ZFh_|SSRIA([roEA15"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><next><block type="controls_if" id="iW3vDnt+-c$oi|`z{VDT"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="@X|)/heT,d+kh:8xLEoy"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="*h)Z4Tbp8U.ch:VQ(Rdf"><field name="VAR" id="]/T!~x5L[C,.q5|zN0Cf">temp</field></block></value><value name="B"><shadow type="math_number" id="!06He~|IOn-cGk#Owey["><field name="NUM">30</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="+9]wK[j*{NM6G+H,$x;9"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . # # # .
+        `</field></block></statement><next><block type="controls_if" id="QG##{cBOM3a??Be$C;Z}"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="O1(N^A(rX)zzFgPSB2wk"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="G!$#b8|]0,YZ%pN)Xw8B"><field name="VAR" id="]/T!~x5L[C,.q5|zN0Cf">temp</field></block></value><value name="B"><shadow type="math_number" id="?]g/Ew{s,2X`|{1)VtrX"><field name="NUM">40</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="q4;y4,*ZQfox:Hdyz`hU"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
